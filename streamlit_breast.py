@@ -164,10 +164,9 @@ def main():
     worst_concave_points,
     worst_symmetry,
     worst_fractal_dimension)
-
-    st.success("Person is {}".format(result))
+        st.success("Person is {}".format(result))
     
-    st.write("Click This [ To book doctor appointment online](https://www.practo.com/doctors)")
+        st.write("Click This [ To book doctor appointment online](https://www.practo.com/doctors)")
 
 
 if __name__ == '__main__':
